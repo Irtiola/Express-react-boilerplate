@@ -1,4 +1,5 @@
 {
+  "proxy": "http://localhost:3001",
   "name": "react-ucbsf",
   "version": "1.0.0",
   "main": "index.js",
@@ -9,6 +10,7 @@
     "start": "node server"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "path": "^0.12.7"
   }
 }
